@@ -1,4 +1,4 @@
-package com.lti;
+package com.lti.utilities;
 
 import com.lti.constants.DBConstants;
 

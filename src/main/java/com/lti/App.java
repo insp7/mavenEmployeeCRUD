@@ -1,7 +1,7 @@
 package com.lti;
 
-import com.lti.dataAccessObjects.EmployeeDAO;
 import com.lti.models.Employee;
+import com.lti.services.EmployeeService;
 
 import java.util.List;
 
@@ -17,40 +17,40 @@ public class App {
         Employee emp3 = new Employee(9, "Yash Vaidya", "Mechanical Engineer", 900);
         Employee emp4 = new Employee(10, "Dhananjay Ghumare", "Analyst", 1000);
 
-        EmployeeDAO employeeDAO = new EmployeeDAO();
+        EmployeeService empService = new EmployeeService();
 
         // insert entity objects into database
-        employeeDAO.insert(emp1);
-        employeeDAO.insert(emp2);
-        employeeDAO.insert(emp3);
-        employeeDAO.insert(emp4);
+        empService.add(emp1);
+        empService.add(emp2);
+        empService.add(emp3);
+        empService.add(emp4);
 
         // display record by id
-        Employee e = employeeDAO.getEmployeeById(7);
+        Employee e = empService.getEmployeeById(7);
         System.out.println("Single employee object:");
         System.out.println(e.toString());
 
         // display all employees
         System.out.println("All the employees: ");
-        List<Employee> employees = employeeDAO.getAllEmployees();
+        List<Employee> employees = empService.getAllEmployees();
         employees.forEach(System.out::println);
 
         // delete employee by id
-        employeeDAO.delete(10);
+        empService.delete(10);
 
         // display all employees AFTER deletion
         System.out.println("All the employees AFTER DELETION: ");
-        employees = employeeDAO.getAllEmployees();
+        employees = empService.getAllEmployees();
         employees.forEach(System.out::println);
 
         // update employee by id
         emp1.setName("inspiration7");
         emp1.setDesignation("Gamer");
         emp1.setSalary(970);
-        employeeDAO.update(emp1);
+        empService.update(emp1);
 
         // display record by id of the UPDATED employee
-        e = employeeDAO.getEmployeeById(7);
+        e = empService.getEmployeeById(7);
         System.out.println("Single employee object AFTER UPDATE:");
         System.out.println(e.toString());
     }

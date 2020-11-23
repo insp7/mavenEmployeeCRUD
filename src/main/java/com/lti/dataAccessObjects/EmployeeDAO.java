@@ -1,6 +1,6 @@
 package com.lti.dataAccessObjects;
 
-import com.lti.Database;
+import com.lti.utilities.Database;
 import com.lti.constants.EmployeeDAOConstants;
 import com.lti.models.Employee;
 
