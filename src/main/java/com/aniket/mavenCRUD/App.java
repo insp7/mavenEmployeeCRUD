@@ -1,7 +1,7 @@
-package com.lti;
+package com.aniket.mavenCRUD;
 
-import com.lti.models.Employee;
-import com.lti.services.EmployeeService;
+import com.aniket.mavenCRUD.models.Employee;
+import com.aniket.mavenCRUD.services.EmployeeService;
 
 import java.util.List;
 
@@ -12,10 +12,10 @@ import java.util.List;
 public class App {
     public static void main(String[] args) {
         // Create entity objects
-        Employee emp1 = new Employee(7, "Aniket Konkar", "Graduate Engineer Trainee", 700);
-        Employee emp2 = new Employee(8, "Soham Konkar", "Student", 800);
-        Employee emp3 = new Employee(9, "Yash Vaidya", "Mechanical Engineer", 900);
-        Employee emp4 = new Employee(10, "Dhananjay Ghumare", "Analyst", 1000);
+        Employee emp1 = new Employee(7, "insp", "Graduate Engineer Trainee", 700);
+        Employee emp2 = new Employee(8, "cheese", "GET", 800);
+        Employee emp3 = new Employee(9, "cmp", "Mechanical Engineer", 900);
+        Employee emp4 = new Employee(10, "dhs", "Analyst", 1000);
 
         EmployeeService empService = new EmployeeService();
 

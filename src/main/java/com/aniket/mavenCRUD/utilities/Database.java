@@ -1,6 +1,6 @@
-package com.lti.utilities;
+package com.aniket.mavenCRUD.utilities;
 
-import com.lti.constants.DBConstants;
+import com.aniket.mavenCRUD.constants.DBConstants;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

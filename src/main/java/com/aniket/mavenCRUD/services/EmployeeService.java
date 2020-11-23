@@ -1,7 +1,7 @@
-package com.lti.services;
+package com.aniket.mavenCRUD.services;
 
-import com.lti.dataAccessObjects.EmployeeDAO;
-import com.lti.models.Employee;
+import com.aniket.mavenCRUD.dataAccessObjects.EmployeeDAO;
+import com.aniket.mavenCRUD.models.Employee;
 
 import java.util.List;
 

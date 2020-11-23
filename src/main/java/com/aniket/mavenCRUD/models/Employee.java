@@ -1,4 +1,4 @@
-package com.lti.models;
+package com.aniket.mavenCRUD.models;
 
 public class Employee {
     private final int id;

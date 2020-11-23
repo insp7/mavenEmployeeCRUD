@@ -1,4 +1,4 @@
-package com.lti.constants;
+package com.aniket.mavenCRUD.constants;
 
 public interface DBConstants {
     String ORACLE_DRIVER = "oracle.jdbc.OracleDriver";

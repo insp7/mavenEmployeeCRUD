@@ -1,8 +1,8 @@
-package com.lti.dataAccessObjects;
+package com.aniket.mavenCRUD.dataAccessObjects;
 
-import com.lti.utilities.Database;
-import com.lti.constants.EmployeeDAOConstants;
-import com.lti.models.Employee;
+import com.aniket.mavenCRUD.utilities.Database;
+import com.aniket.mavenCRUD.constants.EmployeeDAOConstants;
+import com.aniket.mavenCRUD.models.Employee;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

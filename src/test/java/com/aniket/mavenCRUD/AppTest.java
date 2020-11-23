@@ -1,4 +1,4 @@
-package com.lti;
+package com.aniket.mavenCRUD;
 
 import static org.junit.Assert.assertTrue;
 

@@ -4,11 +4,11 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.lti</groupId>
-  <artifactId>mavenSampleProject</artifactId>
+  <groupId>com.aniket.mavenCRUD</groupId>
+  <artifactId>mavenEmployeeCRUD</artifactId>
   <version>1.0-SNAPSHOT</version>
 
-  <name>mavenSampleProject</name>
+  <name>mavenEmployeeCRUD</name>
   <!-- FIXME change it to the project's website -->
   <url>https://github.com/insp7</url>
 
@@ -91,7 +91,7 @@
             <!-- ... -->
             <archive>
               <manifest>
-                <mainClass>com.lti.App</mainClass>
+                <mainClass>com.aniket.mavenCRUD.App</mainClass>
               </manifest>
             </archive>
             <descriptorRefs>

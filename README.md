@@ -1,2 +1,2 @@
-# mavenSampleProject
+# mavenEmployeeCRUD
 Simple Employee CRUD operations

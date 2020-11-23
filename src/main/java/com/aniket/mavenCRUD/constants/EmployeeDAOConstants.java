@@ -1,4 +1,4 @@
-package com.lti.constants;
+package com.aniket.mavenCRUD.constants;
 
 public interface EmployeeDAOConstants {
     String INSERT_QUERY = "INSERT INTO employees(id, name, designation, salary) VALUES(?, ?, ?, ?)";
